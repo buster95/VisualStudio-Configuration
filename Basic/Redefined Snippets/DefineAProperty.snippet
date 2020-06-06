@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Definir una propiedad</Title>
+      <Author>Microsoft Corporation</Author>
+      <Description>Define una propiedad con un campo de respaldo.</Description>
+      <Shortcut>Property</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>PropertyName</ID>
+          <Type>String</Type>
+          <ToolTip>Reemplazar por el nombre de la propiedad.</ToolTip>
+          <Default>NewProperty</Default>
+        </Literal>
+        <Literal>
+          <ID>PropertyType</ID>
+          <Type>
+          </Type>
+          <ToolTip>Reemplazar por el tipo de la propiedad.</ToolTip>
+          <Default>String</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="VB" Kind="method decl"><![CDATA[Public Property $PropertyName$() As $PropertyType$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
